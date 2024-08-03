@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/Sena"
+    android:orientation="vertical"
     tools:context=".crear">
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="30sp"
         android:text="@string/crear"
+        android:textAlignment="center"
         android:textColor="@color/Sena"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="185dp"
-        tools:layout_editor_absoluteY="66dp" />
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -48,7 +50,7 @@
         android:inputType="text"
         android:textAlignment="textStart"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="253dp" />
+        tools:layout_editor_absoluteY="235dp" />
 
     <EditText
         android:id="@+id/editTextText1"
@@ -60,7 +62,7 @@
         android:inputType="text"
         android:textAlignment="textStart"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="343dp" />
+        tools:layout_editor_absoluteY="304dp" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -72,7 +74,7 @@
         android:inputType="text"
         android:textAlignment="textStart"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="437dp" />
+        tools:layout_editor_absoluteY="371dp" />
 
     <EditText
         android:id="@+id/editTextText3"
@@ -84,7 +86,7 @@
         android:inputType="text"
         android:textAlignment="textStart"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="527dp" />
+        tools:layout_editor_absoluteY="437dp" />
 
     <Button
         android:id="@+id/button1"
@@ -94,5 +96,17 @@
         android:backgroundTint="@color/Sena"
         android:text="@string/cuenta"
         tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="609dp" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        tools:layout_editor_absoluteY="527dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/Sena"
+        android:text="@string/btn_log"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+
+</LinearLayout>

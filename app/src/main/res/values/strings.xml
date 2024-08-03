@@ -20,4 +20,5 @@
     <string name="cuenta">Crear</string>
     <string name="recuperar">Recuperar Contraseña</string>
     <string name="rec">Recuperar</string>
+    <string name="btn_log">Login</string>
 </resources>
